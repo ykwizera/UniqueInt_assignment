@@ -26,11 +26,13 @@ The goal is to:
    
 2. navigate the repository
    
-   cd UniqueInt_assignment
+   cd UniqueInt_assignment/
    
 3. run the script
+
+   chmod +x Processor_file.py
    
-   python code/src/processor_file.py
+   python processor_file.py
 
 ## Author
   Yvette Kwizera
