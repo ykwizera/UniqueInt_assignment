@@ -1,7 +1,6 @@
 import os
 
 class UniqueInt:
-    @staticmethod
     def processFile(inputFilePath, outputFilePath):
         unique_integers = set()
         
@@ -17,7 +16,6 @@ class UniqueInt:
             for number in sorted_unique_integers:
                 outputFile.write(f"{number}\n")
 
-    @staticmethod
     def isValidInteger(line):
         if not line:
             return False
@@ -27,7 +25,6 @@ class UniqueInt:
         except ValueError:
             return False
 
-# Example usage
 input_directory = 'sample_input_for_students/'
 output_directory = 'sample_results/'
 
